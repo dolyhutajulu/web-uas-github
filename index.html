@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beranda</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #444ba6;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .konten {
+            width: 30%;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .konten:hover {
+            transform: scale(1.05);
+        }
+
+        .konten img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .judul {
+           
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .judul a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .konten p {
+            padding: 10px;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #3469db;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Hipertensi</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tentang-saya.html">About</a></li>
+        </ul>
+      </nav>
+    <div class="container">
+        <header>
+            <div class="header-image"></div>
+            <div class="header-text">
+              <h1>Selamat Datang di Laman Hipertensi</h1>
+            </div>
+            <P>Hipertensi atau tekanan darah tinggi merupakan kondisi ketika tekanan darah di atas batas normal (130/80 mmHg atau lebih). Kondisi ini dapat menyebabkan berbagai macam komplikasi kesehatan yang membahayakan nyawa jika dibiarkan. Bahkan, gangguan ini dapat menyebabkan peningkatan risiko terjadinya penyakit jantung, stroke, hingga kematian.</P>
+            <p>Istilah tekanan darah sendiri bisa digambarkan sebagai kekuatan dari sirkulasi darah terhadap dinding arteri tubuh yang merupakan pembuluh darah utama. Besarnya tekanan yang terjadi bergantung pada resistensi dari pembuluh darah dan seberapa intens jantung untuk bekerja.</p>
+        </header>
+        <article>
+            <div class="konten">
+                <a href="mencegah.html"><img src="gambar/penyu.jpg" alt="Gambar Penyu"></a>
+                <div class="judul">
+                    <a href="mencegah.html">Pencegahan Hipertensi</a>
+                </div>
+            </div>
+
+            <div class="konten">
+                <a href="tingkatan.html"><img src="gambar/ikan-badut.jpg" alt="Gambar Ikan Badut"></a>
+                <div class="judul">
+                    <a href="tingkatan.html">Tingkat Hipertensi</a>
+                </div>
+            </div>
+
+            <div class="konten">
+                <a href="rendah_garam.html"><img src="gambar/lion-fish.jpg" alt="Gambar Lion Fish"></a>
+                <div class="judul">
+                    <a href="rendah_garam.html">Tingkatan Rendah Garam</a>
+                </div>
+            </div>
+
+            <div class="konten">
+                <a href="diet.html"><img src="gambar/Moorish-Idol.jpg" alt="Gambar Moorish Idol"></a>
+                <div class="judul">
+                    <a href="diet.html">Tujuan Diet</a>
+                </div>
+            </div>
+        </article>
+        <footer>
+
+            <div class="footer-content">
+          
+              <div class="konten">
+                <div class="judul">
+                  <a href="syarat.html">Prinsip Dan Syarat</a>
+                </div> 
+              </div>
+          
+            </div>
+          
+          </footer>
+    </div>
+</body>
+</html>
